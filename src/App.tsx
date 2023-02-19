@@ -4,12 +4,15 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Projects from './components/Projects';
+import TechStack from './components/TechStack';
+import '../src/styles/index.css'
 
 function App() {
   return (
     <>
       <Header/>
-      <About/>
+      <About />
+      <TechStack/>
       <Projects/>
       <Contact/>
       <Footer/>

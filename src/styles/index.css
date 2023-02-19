@@ -1,0 +1,39 @@
+body{
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+.about{
+  width: 40em;
+  border: solid 2px red;
+}
+
+#chapterOne{
+  background-color: brown;
+}
+
+#imgOfChicago{
+  width: 100%;
+  height: auto
+}
+
+#helloWorld{
+  width: 100%;
+  height: auto
+}
+
+#california {
+  width: 100%;
+  height: auto
+}
+
+#chapterTwo{
+  background-color: aqua;
+
+}
+
+#chapterThree{
+  background-color: chartreuse;
+
+}
