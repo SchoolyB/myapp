@@ -4,9 +4,34 @@ body{
   margin: 0;
   padding: 0;
 }
-.about{
-  width: 40em;
+
+img{
+width: 70em;
+/* float: right; */
+}
+
+p{
+  margin-right: 15em;
+  width: 35em;
+}
+.chapterContainer{
+  width: 45em ;
   border: solid 2px red;
+  display: flex;
+  /* justify-content: flex-start; */
+  /* flex-direction: ; */
+  margin-bottom: 20em;
+  
+
+}
+.imgContainer{
+width: 10em;
+height: auto;
+border: solid 5px white;
+}
+
+#imgOfChicago{
+  width: 1em;
 }
 
 #chapterOne{
