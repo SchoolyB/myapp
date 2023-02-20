@@ -30,6 +30,22 @@ height: auto;
 border: solid 5px white;
 }
 
+.techStackLogo{
+
+  width: 5em;
+}
+.circularBackground{
+background-color: white;
+border-radius: 50px;
+text-align: center;
+}
+
+#techStack{
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+}
+
 #imgOfChicago{
   width: 1em;
 }
