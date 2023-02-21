@@ -17,6 +17,10 @@ import react from '../assets/images/tech_stack_icons/react.png'
 import netlify from '../assets/images/tech_stack_icons/netlify.png'
 import insomina from '../assets/images/tech_stack_icons/insomnia.png'
 import mongo from '../assets/images/tech_stack_icons/mongo.png'
+import render from '../assets/images/tech_stack_icons/render.png'
+import figma from '../assets/images/tech_stack_icons/figma.png'
+import code from '../assets/images/tech_stack_icons/code.png'
+import pycharm from '../assets/images/tech_stack_icons/pycharm.png' 
 
 
 
@@ -25,13 +29,12 @@ import mongo from '../assets/images/tech_stack_icons/mongo.png'
 
 export default function TechStack() {
 
-  // TODO: map over an array of images....thanks to TowerMind on twitch *he says sarcastically*
-
   return (
     <>
       <div id='techStackContainer'>
-        <h1 id='techStackHeading'>The Tech Stack</h1>
+        <h1 id='techStackHeading'>My Tech Stack</h1>
         <div id='techStack'>
+          {/* languages */}
           <div id='languages' className='logoSection'>
             <div className='circularBackground'>
               <img alt='logo of ' src={python} className='techStackLogo' id='pythonLogo' />
@@ -53,16 +56,17 @@ export default function TechStack() {
               </div>
           </div>
 
-          
+          {/* frontend */}
           <div id='frontend' className='logoSection'>
-            <div className='circularBackground'>
-              <img alt='logo of ' src={vite} className='techStackLogo' id='viteLogo'/>
-            </div>
             <div className='circularBackground'>
               <img alt='logo of ' src={react} className='techStackLogo' id='reactLogo' />
             </div>
+            <div className='circularBackground'>
+              <img alt='logo of ' src={vite} className='techStackLogo' id='viteLogo'/>
+            </div>
           </div>
 
+          {/* backend */}
           <div id='backend' className='logoSection '>
             <div className='circularBackground'>
               <img alt='logo of ' src={expressjs} className='techStackLogo' id='expressLogo' />
@@ -70,8 +74,15 @@ export default function TechStack() {
             <div className='circularBackground'>
               <img alt='logo of ' src={node} className='techStackLogo' id='nodeLogo' />
             </div>
+            <div className='circularBackground'>
+              <img alt='logo of ' src={mongo} className='techStackLogo' id='mongoLogo' />
+            </div>
+            <div className='circularBackground'>
+              <img alt='logo of ' src={mysql} className='techStackLogo' id='mysqlLogo' />
+            </div>
           </div>
-          
+
+          {/* app deployment */}
           <div id='deployment' className='logoSection'>
             <div className='circularBackground'>
               <img alt='logo of ' src={vercel} className='techStackLogo' id='vercelLogo' />
@@ -79,9 +90,12 @@ export default function TechStack() {
             <div className='circularBackground'>
               <img alt='logo of ' src={netlify} className='techStackLogo' id='netlifyLogo' />
             </div>
+            <div className='circularBackground'>
+              <img alt='logo of ' src={render} className='techStackLogo' id='renderLogo' />
+            </div>
           </div>
 
-
+          {/* source control */}
           <div id='sourceControl' className='logoSection'>
             <div className='circularBackground'>
               <img alt='logo of ' src={git} className='techStackLogo' id='gitLogo' />
@@ -92,12 +106,22 @@ export default function TechStack() {
             <div className='circularBackground'>
               <img alt='logo of ' src={gitlab} className='techStackLogo' id='gitlabLogo' />
               </div>
-            </div>
-          <div className='circularBackground'>
-            <img alt='logo of ' src={insomina} className='techStackLogo' id='insomniaLogo' />
           </div>
-          <div className='circularBackground'>
-            <img alt='logo of ' src={mysql} className='techStackLogo' id='mysqlLogo' />
+          
+          {/* other tools */}
+          <div id='otherTools' className='logoSection'>
+            <div className='circularBackground'>
+              <img alt='logo of ' src={insomina} className='techStackLogo' id='insomniaLogo' />
+            </div>
+            <div className='circularBackground'>
+              <img alt='logo of ' src={figma} className='techStackLogo' id='figmaLogo' />
+            </div>
+            <div className='circularBackground'>
+              <img alt='logo of ' src={code} className='techStackLogo' id='codeLogo' />
+            </div>
+            <div className='circularBackground'>
+              <img alt='logo of ' src={pycharm} className='techStackLogo' id='pycharmLogo' />
+            </div>
           </div>
           
         </div>

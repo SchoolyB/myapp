@@ -6,21 +6,23 @@ body{
 }
 
 img{
-width: 70em;
+width: 50em;
 /* float: right; */
 }
 
 p{
-  margin-right: 15em;
-  width: 35em;
+  margin-left: 10em;
+  margin-right: 5em;
+  width: 25em;
+  font-size: 25px;
 }
 .chapterContainer{
   width: 45em ;
-  border: solid 2px red;
+  /* border: solid 2px red; */
   display: flex;
   /* justify-content: flex-start; */
   /* flex-direction: ; */
-  margin-bottom: 20em;
+  margin-bottom: 15em;
   
 
 }
@@ -31,14 +33,20 @@ border: solid 5px white;
 }
 
 .techStackLogo{
-
   width: 5em;
 }
+
 .circularBackground{
 background-color: white;
 border-radius: 50px;
 text-align: center;
 }
+
+.individualAboutChapterContainer>h2{
+  text-align:center ;
+  font-size: 50px;
+}
+
 
 #techStack{
   /* background-color: white; */
@@ -48,10 +56,6 @@ text-align: center;
 
 #imgOfChicago{
   width: 1em;
-}
-
-#chapterOne{
-  background-color: brown;
 }
 
 #imgOfChicago{
@@ -69,12 +73,38 @@ text-align: center;
   height: auto
 }
 
-#chapterTwo{
-  background-color: aqua;
+#techStackContainer>h1{
 
+    font-size: 50px;
+  text-align: center;
+}
+.smallPara{
+  margin-top: 6em;
+  /* background-color: aqua; */
 }
 
-#chapterThree{
-  background-color: chartreuse;
+.screenshot{
+  width: 30em;
+  margin-right: 5em;
+}
 
+#overallProjectsContainer>h1{
+  text-align:center;
+  font-size: 50px;
+  margin-top: 5em;
+}
+#projects{
+  /* text-align: center; */
+  justify-content: center;
+  display: flex;
+  
+  /* grid-template-columns: 260px 260px 260px; */
+}
+
+
+#idmScreenshot{
+  width: 25.6em;
+}
+#huskLogo{
+  width: 15.5em;
 }
