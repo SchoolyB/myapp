@@ -2,25 +2,22 @@ import React from 'react'
 
 export default function Contact() {
   return (
-  <>
-    <div id='contactContainer' className='topicContainer'>Contact Me
-          <div id='contactForm'>
-            <form action='https://formspree.io/f/mknelldn' method='POST'>
-              <label className='contactLabel' id='contactName'>
-                <input placeholder='Please enter your name'></input>
-              </label>
-
-              <label className='contactLabel' id='contactEmail'>
-                <input placeholder='Please enter your email'></input>
-              </label>
-
-              <label className='contactLabel' id='contactMsg'>
-                <input placeholder='Please leave a message'></input>
-              </label>
-              <button role='button' type='submit' id='contactSubmitButton'>Submit</button>
-            </form>
-          </div>
-      </div>
-    </>
+<div className='overallContactContainer'>
+  <div id="contactContainer">
+    <h1>Contact Me</h1>
+    <form action='https://formspree.io/f/mknelldn' method="POST">
+      <label  className="contactLabel"id="contactName">
+        <input className="contactInput" type="text" name = "name" placeholder="Enter your name"></input>
+      </label>
+      <label className="contactLabel"id="contactEmail">
+        <input  className="contactInput" type="email" name="email" placeholder="Enter your email" />
+      </label>
+      <label className="contactLabel" id="contactMsg">
+            <textarea id="contactTextArea" rows={16} cols={35} name="message" placeholder="Enter your message"></textarea>
+      </label>
+      <button  title="Submit"role="button" id="contactSubmitBtn" type="submit"></button>
+    </form>
+  </div>
+</div>
   )
 }

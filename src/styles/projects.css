@@ -1,0 +1,27 @@
+.screenshot {
+  width: 30em;
+  margin-right: 5em;
+}
+
+#overallProjectsContainer>h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 5em;
+}
+
+#projects {
+  /* text-align: center; */
+  justify-content: center;
+  display: flex;
+
+  /* grid-template-columns: 260px 260px 260px; */
+}
+
+
+#idmScreenshot {
+  width: 25.6em;
+}
+
+#huskLogo {
+  width: 15.5em;
+}

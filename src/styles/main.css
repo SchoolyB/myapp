@@ -1,0 +1,30 @@
+@import url(about.css);
+@import url(contact.css);
+@import url(projects.css);
+@import url(techStack.css);
+
+
+body{
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+img{
+width: 50em;
+/* float: right; */
+}
+
+p{
+  margin-left: 10em;
+  margin-right: 5em;
+  width: 25em;
+  font-size: 25px;
+}
+
+
+
+footer{
+  text-align: center;
+}

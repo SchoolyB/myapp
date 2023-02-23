@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Projects from './components/Projects';
 import TechStack from './components/TechStack';
-import '../src/styles/index.css'
+import '../src/styles/main.css'
 
 function App() {
   return (

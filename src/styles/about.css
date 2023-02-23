@@ -1,0 +1,38 @@
+.chapterContainer {
+  width: 45em;
+  /* border: solid 2px red; */
+  display: flex;
+  /* justify-content: flex-start; */
+  /* flex-direction: ; */
+  margin-bottom: 15em;
+
+}
+
+.individualAboutChapterContainer>h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+#imgOfChicago {
+  width: 1em;
+}
+
+#imgOfChicago {
+  width: 100%;
+  height: auto
+}
+
+#helloWorld {
+  width: 100%;
+  height: auto
+}
+
+#california {
+  width: 100%;
+  height: auto
+}
+
+.smallPara {
+  margin-top: 6em;
+  /* background-color: aqua; */
+}
